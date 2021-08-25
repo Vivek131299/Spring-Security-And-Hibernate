@@ -10,6 +10,12 @@ public class DemoController {
 	public String showHome() {
 		
 		return "home";
+		
+		// When we run our app, Spring will show its DEFAULT LOGIN PAGE, for us to login 
+		// by using our users and passwords created in DemoSecurityConfig.java class.
+		// And then it will Authenticate the user and password and THEN ONLY redirect us to 
+		// home.jsp page.
+		// Spring provides Default Login Page/Logic.
 	}
 
 }
