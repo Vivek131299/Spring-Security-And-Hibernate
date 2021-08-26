@@ -79,7 +79,7 @@
 
 	<!-- TO DO: Add support for Maven WAR Plugin -->
 	<build>
-		<finalName>spring-security-demo-02-basic-security</finalName>
+		<finalName>spring-security-demo-03-custom-login-form</finalName>
 	
 		<pluginManagement>
 			<plugins>
